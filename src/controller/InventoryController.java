@@ -15,7 +15,7 @@ public class InventoryController {
         int jumlah;
 
         try {
-            jumlah = Integer.parseInt(jumlahStr); // Mengonversi input string ke integer
+            jumlah = Integer.parseInt(jumlahStr);
         } catch (NumberFormatException e) {
             return "Input tidak valid.";
         }

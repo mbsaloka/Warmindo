@@ -4,6 +4,19 @@
 Run ```./build.sh``` to build the project in terminal.
 Then run ```./run.sh``` to open the app.
 
+### Or
+
+Build
+```
+mkdir -p bin
+javac -d bin src/model/*.java src/controller/*.java src/view/*.java src/Main.java
+```
+
+Run
+```
+java -cp bin Main
+```
+
 ## Screenshot
 ![image](https://github.com/user-attachments/assets/1ba5c665-e2a3-4e6f-941d-35fbedec7f06)
 ![image](https://github.com/user-attachments/assets/2b24f213-1fe8-4eb7-9bdb-aa823e97a3ec)
